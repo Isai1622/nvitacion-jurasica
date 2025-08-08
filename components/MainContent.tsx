@@ -62,8 +62,9 @@ const MainContent: React.FC<MainContentProps> = ({ scriptUrl }) => {
                 <JurassicCard>
                     <h3 className="font-bangers text-5xl md:text-6xl text-amber-400 mb-8">¡Encuentra el Nido del T-Rex!</h3>
                     <img src="https://i.postimg.cc/QNnn3NRw/imagen-2025-08-07-185454590.png" alt="Mapa del Tesoro Jurásico" className="rounded-lg shadow-xl mb-8 w-full h-auto max-h-72 object-cover border-4 border-amber-600" />
-                    <p className="text-lg md:text-xl mb-8 text-gray-200">La celebración se llevará a cabo en un campamento base secreto, ¡cuidado con los velociraptores en el camino!</p>
-                    <a href="https://www.google.com/maps/place//@28.7213169,-106.006974,17z/data=!4m6!1m5!3m4!2zMjjCsDQzJzE2LjYiTiAxMDbCsDAwJzE1LjkiVw!8m2!3d28.7212887!4d-106.0044098?hl=es&entry=ttu&g_ep=EgoyMDI1MDgwNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="btn-jurassic inline-flex items-center text-xl">
+                    <p className="text-lg md:text-xl mb-4 text-gray-200">La celebración se llevará a cabo en un campamento base secreto, ¡cuidado con los velociraptores en el camino!</p>
+                    <p className="text-lg md:text-xl mb-8 text-gray-200">El punto de encuentro es la <strong className="text-amber-300">Granja de Eventos Shitraförd</strong>. Es un lugar amplio y seguro para nuestras actividades de excavación. ¡Busca las señales de explorador para guiarte a la entrada secreta!</p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=28.7212887,-106.0044098" target="_blank" rel="noopener noreferrer" className="btn-jurassic inline-flex items-center text-xl">
                        <MapIcon /> Ubicación
                     </a>
                 </JurassicCard>
